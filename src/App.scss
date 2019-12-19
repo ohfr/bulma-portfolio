@@ -154,6 +154,9 @@ ul {
   &:hover {
     opacity: 1;
   }
+  @media (max-width: 500px) {
+    display: none;
+  }
 }
 
 .btn-overlay {
@@ -177,6 +180,9 @@ ul {
       // background: linear-gradient(268.02deg, #660ED8 0.88%, rgba(27, 110, 218, 0.5) 104.8%, rgba(50, 117, 217, 0.62918) 105.11%);
       color: white;
     }
+  @media (max-width: 500px) {
+    display: none;
+  }
 
 }
 .btn-overlay2 {
