@@ -13,11 +13,11 @@ const Nav = (props) => {
             <nav className="navbar" role="navigation">
                 <div className="navbar-brand">
                     <h1 className="navbar-item">Daniel Martin</h1>
-                    <a onClick={handleClick} role="button" className={open ? "navbar-burger is-active" : "navbar-burger"} aria-label="menu" aria-expanded="false" href="#">
+                    <button onClick={handleClick} className={open ? "navbar-burger is-active" : "navbar-burger"} aria-label="menu" aria-expanded="false" >
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
-                    </a>
+                    </button>
                 </div>
                 <div className={open ? "navbar-menu is-active" : "navbar-menu"}>
                     <div className="navbar-end">

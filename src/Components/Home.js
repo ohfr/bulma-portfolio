@@ -15,7 +15,7 @@ const Home = () => {
                         <p className="subtitle">
                             I'm a software engineer from Vinton, VA. I'm an enthusiastic programmer who loves to learn anything new! I mainly work with Django and React, but I'm never afraid to learn a new language or framework. I graduated from Lambda School in September 2020, with a focus in web development, Lambda taught me to push myself and to always be hungry for new knowledge.
                         </p>
-                        <div className="flex mb-3">
+                        <div className="flex mb-10">
                             <a href="https://github.com/ohfr" className="link-class">Github</a>
                             <a href="https://linkedin.com/in/daniel-p-martin" className="link-class">LinkedIn</a>
                             <a href="https://gitlab.valcom.com/dmartin" className="link-class">Gitlab</a>
