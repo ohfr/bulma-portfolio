@@ -21,6 +21,7 @@ const About = () => {
                                 <p className="list-title has-text-purple has-text-weight-bold">Technologies</p>
                                 <ul>
                                     <li>React.js</li>
+                                    <li>React Native</li>
                                     <li>Redux</li>
                                     <li>Jest</li>
                                     <li>React-Router</li>
@@ -38,13 +39,13 @@ const About = () => {
                                 <p>SQL, JavaScript, Java, Python</p>
                                 <p className="list-title has-text-purple has-text-weight-bold">Technologies</p>
                                 <ul>
+                                    <li>Django</li>
                                     <li>Node.js</li>
                                     <li>Knex.js</li>
                                     <li>SQLite3</li>
                                     <li>PostgreSQL</li>
                                 </ul>
                             </div>
-
                         </div>
                     </div>
                 </div>

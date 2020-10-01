@@ -12,6 +12,14 @@ const Home = () => {
                     <div className="container">
                         <h1 className="title flex">Hi there, I'm <Typical className= "title purple" steps={['Daniel', 2000, 'a developer', 2000, 'a keyboard addict', 2000, 'a car enthusiast', 2000]} loop={Infinity}/></h1>
                         <h2 className="subtitle">I build computers, keyboards, and software.</h2>
+                        <p className="subtitle">
+                            I'm a software engineer from Vinton, VA. I'm an enthusiastic programmer who loves to learn anything new! I mainly work with Django and React, but I'm never afraid to learn a new language or framework. I graduated from Lambda School in September 2020, with a focus in web development, Lambda taught me to push myself and to always be hungry for new knowledge.
+                        </p>
+                        <div className="flex mb-3">
+                            <a href="https://github.com/ohfr" className="link-class">Github</a>
+                            <a href="https://linkedin.com/in/daniel-p-martin" className="link-class">LinkedIn</a>
+                            <a href="https://gitlab.valcom.com/dmartin" className="link-class">Gitlab</a>
+                        </div>
                         <img src={require('../Assets/avatar.png')} alt="avatar" />
                     </div>
                 </div>

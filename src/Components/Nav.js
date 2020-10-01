@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import DanielMartinResume from "../Assets/DanielMartinResume.pdf";
 
 
 const Nav = (props) => {
@@ -13,7 +13,7 @@ const Nav = (props) => {
             <nav className="navbar" role="navigation">
                 <div className="navbar-brand">
                     <h1 className="navbar-item">Daniel Martin</h1>
-                    <a onClick={handleClick} role="button" className={open ? "navbar-burger is-active" : "navbar-burger"} aria-label="menu" aria-expanded="false">
+                    <a onClick={handleClick} role="button" className={open ? "navbar-burger is-active" : "navbar-burger"} aria-label="menu" aria-expanded="false" href="#">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
@@ -23,7 +23,7 @@ const Nav = (props) => {
                     <div className="navbar-end">
                         {/* <Link className="navbar-item link" to="/">Home</Link>
                         <Link className="navbar-item link" to="/About">About</Link> */}
-                        <a className="navbar-item link" href="https://docs.google.com/document/d/1qUfIOe7l0zUtmvlZt4e4P0Titj1E61VXMtQCq8gbNd4/edit?usp=sharing" target="_blank">Resume</a>
+                        <a className="navbar-item link" href={DanielMartinResume} target="__blank">Resume</a>
                         <a className="navbar-item link"href="mailto:danielmartin1205@gmail.com">Contact</a>
                     </div>
                 </div>

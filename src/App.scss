@@ -245,3 +245,12 @@ ul {
   background-color:#E6ECF8;
   height: 40vh;
 }
+
+.link-class {
+  margin: 10px 5px 10px 5px;
+  color: #7510F7;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
